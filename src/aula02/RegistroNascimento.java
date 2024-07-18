@@ -10,12 +10,6 @@ public class RegistroNascimento {
 
         System.out.println(pessoaFisica01);
 
-
-
-
-
-
     }
-
 
 }

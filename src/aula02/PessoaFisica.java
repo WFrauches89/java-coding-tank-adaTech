@@ -54,3 +54,6 @@ public class PessoaFisica {
                 "Estado Civil = " + estadoCivil;
     }
 }
+
+// deve ser ativo
+// ativo == true &&
