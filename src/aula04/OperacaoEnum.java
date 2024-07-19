@@ -17,12 +17,12 @@ public enum OperacaoEnum {
         return sinal;
     }
 
-    public static OperacaoEnum funcaoSinal(String simbolo) {
+    public static OperacaoEnum funcaoSinal(String sinalRecebido) {
         for (OperacaoEnum operacao : OperacaoEnum.values()) {
-            if (operacao.getSinal().equals(simbolo)) {
+            if (operacao.getSinal().equals(sinalRecebido)) {
                 return operacao;
             }
         }
-        throw new IllegalArgumentException("Símbolo inválido: " + simbolo);
+        throw new IllegalArgumentException("Símbolo inválido: " + sinalRecebido);
     }
 }
